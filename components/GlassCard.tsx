@@ -1,11 +1,11 @@
 import React from 'react';
-import { View, StyleSheet, ViewStyle, Platform } from 'react-native';
+import { View, StyleSheet, ViewStyle, StyleProp, Platform } from 'react-native';
 import { colors } from '../theme/colors';
 import { radii } from '../theme/radii';
 
 interface GlassCardProps {
   children: React.ReactNode;
-  style?: ViewStyle | ViewStyle[];
+  style?: StyleProp<ViewStyle>;
   tint?: 'neutral' | 'warm' | 'green' | 'cyan';
   variant?: 'elevated' | 'subtle' | 'borderless';
 }
