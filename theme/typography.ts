@@ -112,4 +112,20 @@ export const typography = {
     fontWeight: '600' as const,
     letterSpacing: 0.4,
   },
+
+  numbers: {
+    fontFamily,
+    fontVariant: ['tabular-nums'] as TextStyle['fontVariant'],
+    fontWeight: '500' as const,
+    letterSpacing: 0,
+  },
+
+  statistics: {
+    fontFamily,
+    fontSize: 28,
+    lineHeight: 34,
+    fontVariant: ['tabular-nums'] as TextStyle['fontVariant'],
+    fontWeight: '700' as const,
+    letterSpacing: -0.5,
+  }
 };
