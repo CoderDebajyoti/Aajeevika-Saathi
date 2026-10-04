@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Aajeevika Saathi",
-    "slug": "aajeevika-saathi",
+    "name": "SIH 2026 Problem Statement Explorer",
+    "slug": "sih-2026-explorer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
