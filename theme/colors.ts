@@ -6,6 +6,18 @@
  */
 
 export const colors = {
+  // Semantic Color Mappings (Based on Brand Palette)
+  primaryOrange: '#F97316',
+  primaryGreen: '#16A34A',
+  deepNavy: '#102A43',
+  softGreen: '#EDF9F1',
+  softOrange: '#FFF2E8',
+  electricBlue: '#0EA5E9',
+  background: '#FFFDF9',
+  cardBackground: '#FFFFFF',
+  textPrimary: '#102A43',
+  textMuted: '#627D98',
+
   // Brand Warm Saffron / Orange (Action, warmth, primary CTAs)
   orange: {
     50: '#FFF7ED',
